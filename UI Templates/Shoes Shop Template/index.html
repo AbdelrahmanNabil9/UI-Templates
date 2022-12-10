@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Shoes Shop Template</title>
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg bg-light">
+    <div class="container-fluid">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <a class="navbar-brand" href="#">
+          <img src="img/egypt.png" alt="Logo" width="30" height="24" class="d-inline-block align-text-top">
+        </a>
+        <span class="lang" >العربية</span>
+        <div class="input-group w-75">
+          <span class="input-group-text" id="basic-addon1"><i class="fa-solid fa-magnifying-glass"></i></span>
+          <input type="text" class="form-control" placeholder="Search Here" aria-label="Username" aria-describedby="basic-addon1">
+          <h5 class="mx-5">My Account</h5>
+          <h5 class="mx-3">Cart <i class="fa-solid fa-cart-shopping"></i> </h5>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <div class="my-3">
+        <ul class="nav justify-content-center">
+            <li class="nav-item">
+              <a class="nav-link text-dark" href="#">Shoes</a>
+            </li>
+            <li class="nav-item ">
+              <a class="nav-link text-dark" href="#">Slippers</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-dark" href="#">Kids</a>
+            </li>
+            <li class="nav-item text-dark ">
+              <i class="fa-solid fa-road-spikes"></i>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-dark" href="#">New Arrival</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-dark" href="#">More About Us</a>
+              </li>
+          </ul>
+    </div>
+    <section class="porducts bg-light justify-content-center">
+      <div class="container d-flex">
+        <div class="sideBar col-md-3  py-5 d-none d-sm-block d-sm-none d-md-block d-md-none d-lg-block">
+          <div class="accordion" id="accordionExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+                  MEN'S
+                </button>
+              </h2>
+              <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwo">
+                <div class="accordion-body">
+                  <div class="accordion-item">
+                    <h2 class="accordion-header" id="panelsStayOpen-headingTwo-custom">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo-custom" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo-custom">
+                        MEN'S ACC
+                      </button>
+                    </h2>
+                    <div id="panelsStayOpen-collapseTwo-custom" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwo-custom">
+                      <div class="accordion-body">
+                        MEN'S ACCESSORIES
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="accordion" id="accordionExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+                  WOMEN'S
+                </button>
+              </h2>
+              <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
+                <div class="accordion-body">
+                  <div class="accordion-item">
+                    <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+                        WOMEN'S Accessories
+                      </button>
+                    </h2>
+                    <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
+                      <div class="accordion-body">
+                        WOMEN'S ACCESSORIES
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="price-range">
+            <label for="customRange1" class="form-label">Price range</label>
+            <input type="range" class="form-range" id="customRange1">
+          </div>
+          <div class="color">
+            <label for="customcolor" class="form-label">Color</label>
+            <div class="colors-samples d-flex">
+              <span class="d-flex bg-primary"></span>
+              <span class="d-flex bg-success"></span>
+              <span class="d-flex bg-danger"></span>
+              <span class="d-flex bg-info"></span>
+              <span class="d-flex bg-dark"></span>
+              <span class="d-flex bg-white"></span>
+            </div>
+          </div>
+          <div class="size">
+            <label for="customSize" class="form-label">Size</label>
+            <div class="d-flex">
+              <span>41</span>
+              <span>42</span>
+              <span>43</span>
+              <span>44</span>
+            </div>
+          </div>
+          <div class="buttons">
+            <button type="reset" class="btn btn-secondary ">reset</button>
+            <button type="reset" class="btn btn-warning">reset</button>
+          </div>
+
+        </div>
+        <div class="products col-md-9 col-sm-12 ">
+            <div class="py-5 ps-3">
+              <div class="container">
+                <div class="dropdown show py-2">
+                  <a class="btn  dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Sort By
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                    <a class="dropdown-item" href="#">Action</a>
+                    <a class="dropdown-item" href="#">Another action</a>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                  </div>
+                </div>
+                <div class="row hidden-md-up">
+                  <div class="col-md-4 col-sm-12">
+                    <div class="card text-center position-relative" >
+                      <img src="img/shoes.webp" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <p class="card-title text-muted">Classic Shoes</p>
+                        <p class="card-text">Classic</p>
+                        <p class="price">
+                          <span>300 EGP</span>
+                          <del>500EGP</del>
+                          <span class="offer">30% Off</span>
+                        </P>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star"></span>
+                      </div>
+                      <p class="position-absolute">sale</p>
+                    </div>
+                  </div>
+                  <div class="col-md-4">
+                    <div class="card text-center position-relative">
+                      <img src="img/shoes.webp" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <p class="card-title text-muted">Classic Shoes</p>
+                        <p class="card-text">Classic</p>
+                        <p class="price">
+                          <span>300 EGP</span>
+                          <del>500EGP</del>
+                          <span class="offer">30% Off</span>
+                        </P>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star"></span>
+                      </div>
+                      <p class="position-absolute">sale</p>
+                    </div>
+                  </div>
+                  <div class="col-md-4">
+                    <div class="card text-center position-relative">
+                      <img src="img/shoes.webp" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <p class="card-title text-muted">Classic Shoes</p>
+                        <p class="card-text">Classic</p>
+                        <p class="price">
+                          <span>300 EGP</span>
+                          <del>500EGP</del>
+                          <span class="offer">30% Off</span>
+                        </P>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star"></span>
+                      </div>
+                      <p class="position-absolute">sale</p>
+                    </div>
+                  </div>
+                </div><br>
+                <div class="row">
+                  <div class="col-md-4">
+                    <div class="card text-center position-relative">
+                      <img src="img/shoes.webp" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <p class="card-title text-muted">Classic Shoes</p>
+                        <p class="card-text">Classic</p>
+                        <p class="price">
+                          <span>300 EGP</span>
+                          <del>500EGP</del>
+                          <span class="offer">30% Off</span>
+                        </P>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star"></span>
+                      </div>
+                      <p class="position-absolute">sale</p>
+                    </div>
+                  </div>
+                  <div class="col-md-4">
+                    <div class="card text-center position-relative">
+                      <img src="img/shoes.webp" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <p class="card-title text-muted">Classic Shoes</p>
+                        <p class="card-text">Classic</p>
+                        <p class="price">
+                          <span>300 EGP</span>
+                          <del>500EGP</del>
+                          <span class="offer">30% Off</span>
+                        </P>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star"></span>
+                      </div>
+                      <p class="position-absolute">sale</p>
+                    </div>
+                  </div>
+                  <div class="col-md-4">
+                    <div class="card text-center position-relative">
+                      <img src="img/shoes.webp" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <p class="card-title text-muted">Classic Shoes</p>
+                        <p class="card-text">Classic</p>
+                        <p class="price">
+                          <span>300 EGP</span>
+                          <del>500EGP</del>
+                          <span class="offer">30% Off</span>
+                        </P>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star"></span>
+                      </div>
+                      <p class="position-absolute top-10 end-10">sale</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+        </div>
+      </div>
+    </section>
+    <section  class="py-5" id="section2">
+      <div class="container d-flex flex-xs-column">
+        <div class="d-flex col-3 py-sm-3">
+          <i class="fa-solid fa-truck"></i>
+          <div>
+            <h5>Free Shipping</h5>
+            <span>On Order over 99$ </span>
+          </div>
+        </div>
+        <div class="d-flex col-3 py-sm-3">
+          <i class="fa-solid fa-credit-card"></i>
+          <div>
+            <h5>MONEY RETURN</h5>
+            <span>30 days money return</span>
+          </div>
+        </div>
+        <div class="d-flex col-3 py-sm-3">
+          <i class="fa-solid fa-life-ring"></i>
+          <div>
+            <h5>SUPPORT 24/7</h5>
+            <span>Hotline(+972064651)</span>
+          </div>
+        </div>
+        <div class="d-flex col-3 py-sm-3">
+          <i class="fa-solid fa-briefcase"></i>
+          <div>
+            <h5>SAFE PAYMENT</h5>
+            <span>Protect online payment</span>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer class="bg-light">
+      <div class="container d-flex flex-xs-column">
+        <div class="col-3">
+          <h5>ABOUT US</h5>
+          <p><i class="fa-solid fa-location-dot"></i>Address City Mokatam</p>
+          <p><i class="fa-solid fa-phone-flip"></i> (+9721611561)</p>
+        </div>
+        <div class="col-3">
+          <h5>OUR SERVICES</h5>
+          <p>Home</p>
+          <p>Shop</p>
+          <p>Account</p>
+          <p>Shop List</p>
+          <p>Wish List</p>
+        </div>
+        <div class="col-3">
+          <h5>INFORMATION</h5>
+          <p>About US</p>
+          <p>Track your Order</p>
+          <p>FAQ'S</p>
+          <p>Terms&Services</p>
+          <p>Contact us</p>
+        </div>
+        <div class="col-3">
+          <h5>FOLLOW US</h5>
+          <div class="icons d-flex">
+            <i class="fa-brands fa-facebook-f"></i>
+            <i class="fa-brands fa-google"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-linkedin"></i>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+</body>
+</html>
